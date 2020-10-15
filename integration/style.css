@@ -70,3 +70,9 @@ nav ul li a:hover {
     width: 31.3%;
   }
 }
+
+@media screen and (max-width: 50em) {
+  section {
+    margin: 0 1em;
+  }
+}
