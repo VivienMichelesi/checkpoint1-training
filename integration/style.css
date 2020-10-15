@@ -2,15 +2,44 @@ body {
   margin: 0;
 }
 
+/* Sections */
 section {
   padding: 3em 0;
   max-width: 48em;
   margin: 0 auto;
 }
 
+/* En-tête */
 header {
   padding: 5em 0;
   text-align: center;
   background-image: url("https://images.unsplash.com/photo-1541816139614-b1c0b6a13f5b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80");
   color: #eee;
+}
+
+/* Navbar */
+nav {
+  background: #346;
+}
+
+nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  list-style-type: none;
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 1em;
+  color: #ddf;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: #fff;
+  background: #235;
 }
