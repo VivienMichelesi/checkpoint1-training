@@ -1,9 +1,15 @@
 /*
- Ecris une fonction isEven qui prend un nombre en paramètre, et renvoie true si celui-ci est pair, false sinon.
+ Ecris une fonction isEven qui prend un nombre en paramètre,
+ et renvoie true si celui-ci est pair, false sinon.
 */
 
 function isEven(num) {
-  // ton code ici
+  const modulo = num % 2;
+  if (modulo === 0) {
+    return true;
+  } else {
+    return false;
+  }
 }
 
 
