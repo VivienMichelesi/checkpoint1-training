@@ -2,7 +2,7 @@
  Tu dois écrire une fonction qui calcule
  et renvoie le périmètre d'un rectangle.
 
- Les deux côtés du rectangle sont la largeur (witdh)
+ Les deux côtés du rectangle sont la largeur (width)
  et la hauteur (height).
 
  La formule de calcul est :
@@ -11,7 +11,7 @@
 */
 
 function rectPerimeter(width, height) {
-  // Ton code ici
+  return 2 * (width + height);
 }
 
 
