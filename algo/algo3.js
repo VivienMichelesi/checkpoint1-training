@@ -4,9 +4,12 @@
  et renvoie la somme de ces nombres
 */
 
+const reducer = (acc, currentValue) => acc + currentValue;
 function sumNumbers(numArray) {
-
+  return (numArray.reduce(reducer));
 }
+
+
 
 
 // Exemples d'appel pour vérifier
