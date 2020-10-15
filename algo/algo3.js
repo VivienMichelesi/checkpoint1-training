@@ -6,8 +6,8 @@
 
 function sumNumbers(numArray) {
   let sum = 0;
-  for (let i = 0 ; i < numArray.length ; i += 1) {
-    sum += numArray[i];
+  for (let num of numArray) {
+    sum += num;
   }
   return sum;
 }
