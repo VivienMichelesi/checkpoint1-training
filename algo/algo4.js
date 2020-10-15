@@ -5,7 +5,14 @@
  */
 
 function addItemsPosition(strArray) {
-
+  const prefixedStrings = [];
+  for (let i = 0; i < strArray.length; i += 1) {
+    const str = strArray[i];
+    const position = i + 1;
+    const prefixedStr = `${position}. ${str}`;
+    prefixedStrings.push(prefixedStr);
+  }
+  return prefixedStrings;
 }
 
 
