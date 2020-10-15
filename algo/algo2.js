@@ -4,12 +4,7 @@
 */
 
 function isEven(num) {
-  const modulo = num % 2;
-  if (modulo === 0) {
-    return true;
-  } else {
-    return false;
-  }
+  return num % 2 === 0;
 }
 
 
